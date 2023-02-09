@@ -1,14 +1,50 @@
-.Nav{
-background-color: black;
-padding: 5%;
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Italiana&family=Petit+Formal+Script&family=Roboto:wght@100&display=swap');
+.Nav {
+    background-color: #f2eafb;
+    padding: 3%;
+    font-size: 1em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    // color: rgba(24,31,52,255);
+    background-image: url('https://i.pinimg.com/564x/18/1e/db/181edb201df4850ada2e9ec9712e251a.jpg');
+    background-size: cover;
+    background-position: top;
+    font-family: 'Petit Formal Script', cursive;
 }
 
 .navList {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: flex-end;
+    gap: 25px;
 }
 
-.link{
-    color: blanchedalmond;
+.link {
+    color: #74745c;
+    text-decoration: none;
+}
+
+// .link:hover{
+//     transition: all .9s ease;
+// -webkit-transition: all .9s ease;
+// font-size: 1.5em;
+// }
+
+.logo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: #a2937a;
+    // padding-right: 15%;
+}
+
+.KP {
+    font-size: 1.5em;
+}
+
+.FSSE {
+    font-size: 1.7em;
+    font-style: italic;
 }
