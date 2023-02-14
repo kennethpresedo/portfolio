@@ -7,8 +7,6 @@ import About from './pages/About/About'
 import Contact from './pages/Contact/Contact'
 import Portfolio from './pages/Portfolio/Portfolio'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Footer from './components/Footer/Footer';
-
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,7 +14,7 @@ root.render(
     <App />
     <BrowserRouter>
                 <Routes>
-                    <Route path='/' element={<Home />}>
+                    <Route path='/home' element={<Home />}>
                     </Route>
                     <Route path='/about' element={<About />}>
                     </Route>
@@ -26,7 +24,6 @@ root.render(
                     </Route>
                 </Routes>
             </BrowserRouter>
-            <Footer />
   </React.StrictMode>
 
 );

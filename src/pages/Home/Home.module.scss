@@ -1,5 +1,37 @@
-.Home{
+.inspoMemes {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    padding: 2em;
+    height: 500px;
+    background-color: white;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.charlieHome {
+    display: flex;
+    height: max-content;
+    height: min-content;
+    border: 1px solid black;
+}
+
+.frankHome {
+    display: flex;
+    height: max-content;
+    height: min-content;
+}
+
+.michealHome {
+    display: flex;
+    height: max-content;
+    height: min-content;
+}
+
+.dwightHome {
+    display: flex;
+    height: max-content;
+    height: min-content;
 }

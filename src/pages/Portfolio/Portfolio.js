@@ -1,9 +1,17 @@
-import styles from './Portfolio.module.scss'
 import React from 'react';
+import styles from './Portfolio.module.scss'
+import Nav from '../../components/Nav/Nav'
+import Footer from '../../components/Footer/Footer'
+
 export default function Portfolio() {
     return (
-        <main className={styles.Portfolio}>
-         <h1>Folio Page!</h1>
-        </main>
+        <>
+            <Nav />
+            <div className={styles.portfolio}>
+
+            </div>
+            <Footer />
+        </>
     )
 }
+

@@ -1,9 +1,17 @@
-import styles from './Contact.module.scss'
 import React from 'react';
+import styles from './Contact.module.scss'
+import Nav from '../../components/Nav/Nav'
+import Footer from '../../components/Footer/Footer'
+
 export default function Contact() {
     return (
-        <main className={styles.Contact}>
-        <h1>Contact Me!</h1>
-    </main>
+        <>
+            <Nav />
+            <div className={styles.contact}>
+
+            </div>
+            <Footer />
+        </>
     )
 }
+
