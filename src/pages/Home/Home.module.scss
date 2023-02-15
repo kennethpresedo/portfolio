@@ -1,3 +1,34 @@
+.intro {
+    background-image: url('https://i.imgur.com/fiZICjS.jpg');
+    background-repeat: none;
+    background-size: cover;
+    display: flex;
+    column-count: 2;
+    column-gap: 80px;
+    justify-content: space-evenly;
+    padding: 2em;
+    height: 500px;
+    background-color: white;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.profile {
+    padding-left: 5%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.bio{
+    padding-left: 2%;
+    margin-right: 5%;
+    justify-content: center;
+    align-self: center;
+}
+
 .inspoMemes {
     display: flex;
     align-items: center;
