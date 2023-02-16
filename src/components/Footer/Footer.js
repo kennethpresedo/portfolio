@@ -2,9 +2,10 @@ import React from 'react';
 import styles from './Footer.module.scss'
 
 export default function Footer() {
+    let date =  new Date().getFullYear();
     return (
         <main className={styles.Footer}>
-            <span className={styles.info}>Latino in Tech <br />Made with ♥️<br />From Miami, Fl<br />© 2023</span>
+            <span className={styles.info}>Latino in Tech <br />Made with ♥️<br />From Miami, Fl<br />© {date}</span>
             <div className={styles.all}>
                 <div className={styles.footList}>
                     <a className={styles.link} href="/">Homepage</a>

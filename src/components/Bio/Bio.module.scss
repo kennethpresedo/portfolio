@@ -1,14 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Italiana&family=Josefin+Slab:ital,wght@0,100;1,100&family=Roboto:wght@100&display=swap');
-
-.bio{
-    font-size: 2em;
-    word-wrap: break-word;
-    text-align: justify;
-    font-family: 'Italiana', serif;
-    color: #2b4e41;
-}
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=DM+Serif+Display&family=Italiana&family=Josefin+Slab:ital,wght@0,100;1,100&family=PT+Serif:ital,wght@1,700&family=Roboto:wght@100&family=Zilla+Slab:wght@400;700&display=swap');
 
 .header{
+    word-wrap: break-word;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 42px;
+}
+
+.bio{
+    font-size: 24px;
+    word-wrap: break-word;
+    text-align: justify;
+    font-family: 'DM Serif Display', serif;
+    color: dimgrey;
 }

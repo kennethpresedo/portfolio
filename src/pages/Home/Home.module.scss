@@ -1,7 +1,8 @@
 .intro {
-    background-image: url('https://i.imgur.com/fiZICjS.jpg');
+    background-image: url('https://e0.pxfuel.com/wallpapers/343/925/desktop-wallpaper-mint-green-pink-background-cute-green-mint-laptop.jpg');
     background-repeat: none;
     background-size: cover;
+    background-position: top;
     display: flex;
     column-count: 2;
     column-gap: 80px;
@@ -9,10 +10,11 @@
     padding: 2em;
     height: 500px;
     background-color: white;
-    margin-top: 2em;
-    margin-bottom: 2em;
-    margin-right: 2%;
-    margin-left: 2%;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    margin-right: 1%;
+    margin-left: 1%;
+    border: 2px solid white;
 }
 
 .profile {
@@ -30,16 +32,26 @@
 }
 
 .inspoMemes {
+    background-image: url('https://e0.pxfuel.com/wallpapers/343/925/desktop-wallpaper-mint-green-pink-background-cute-green-mint-laptop.jpg');
+    background-repeat: none;
+    background-size: cover;
+    background-position: bottom;
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding: 2em;
     height: 500px;
-    background-color: white;
-    margin-top: 2em;
-    margin-bottom: 2em;
-    margin-right: 2%;
-    margin-left: 2%;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    margin-right: 1%;
+    margin-left: 1%;
+    border: 2px solid white;
+}
+
+.h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .charlieHome {
