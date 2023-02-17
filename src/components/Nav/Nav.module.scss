@@ -1,20 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Italiana&family=Josefin+Slab:ital,wght@0,100;1,100&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=DM+Serif+Display:ital@0;1&family=Italiana&family=Josefin+Slab:ital,wght@0,100;1,100&family=Lobster+Two&family=Merriweather:wght@300&family=PT+Serif:ital,wght@1,700&family=Playfair+Display&family=Roboto:wght@100&family=Zilla+Slab:wght@400;700&display=swap');
 
 .Nav {
-    background-color: #f2eafb;
-    padding: 3%;
-    font-size: 1.5em;
+    padding: 4%;
+    font-size: 29px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     // color: rgba(24,31,52,255);
     // background-image: url('https://i.pinimg.com/564x/18/1e/db/181edb201df4850ada2e9ec9712e251a.jpg');
     //background-image: url('https://i.pinimg.com/564x/2d/af/d1/2dafd1dedf119116e51953a81667526d.jpg');
-    background-image: url('https://e0.pxfuel.com/wallpapers/343/925/desktop-wallpaper-mint-green-pink-background-cute-green-mint-laptop.jpg');
+    //background-image: url('https://i.pinimg.com/736x/40/92/57/409257049228ec57fa95d6a7463d4a2e.jpg');
+    background-color: transparent;
     background-size: cover;
     background-position: top;
-    font-family: 'Italiana', serif;
-    font-style: italic;
+    font-family: 'Playfair Display', serif;
+    border-bottom: 2px solid darkslategrey;
 }
 
 .navList {
@@ -25,7 +25,7 @@
 }
 
 .link {
-    color: black;
+    color: darkslategray;
     text-decoration: none;
 }
 
@@ -40,16 +40,13 @@
     align-items: center;
     flex-direction: column;
     justify-content: flex-start;
-    // color: rgb(120,108,92);
-    color: black;
-    // padding-right: 15%;
+    color: darkslategray;
 }
 
 .KP {
-    font-size: 1em;
+    font-size: 36px;
 }
 
 .FSSE {
-    font-size: 1.2em;
-    // font-style: italic;
+    font-size: 26px;
 }

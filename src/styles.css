@@ -1,3 +1,7 @@
 :root{
-    background-color: #d8d8da;
+    /* background-color: #d8d8da; */
+    background-image: url('https://i.pinimg.com/564x/70/21/3a/70213a0b7e758b8b4925f882a2f1ebc8.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

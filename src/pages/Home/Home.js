@@ -7,21 +7,28 @@ import Charlie from '../../components/Charlie/Charlie'
 import Frank from '../../components/Frank/Frank'
 import Micheal from '../../components/Micheal/Micheal'
 import Dwight from '../../components/Dwight/Dwight'
+import Patrick from '../../components/Patrick/Patrick'
+import Carousel, { CarouselItem } from '../../components/Carousel/Carousel'
 
 export default function Home() {
     return (
         <>
             <Nav />
             <div className={styles.intro}>
-                <span className={styles.profile}><Profile /></span>
                 <span className={styles.bio}><Bio /></span>
+                <span className={styles.profile}><Profile /></span>
             </div>
-            <div className={styles.inspoMemes}>
-                <span className={styles.frankHome}><Frank /></span>
-                <span className={styles.charlieHome}><Charlie /></span>
-                <span className={styles.michealHome}><Micheal /></span>
-                <span className={styles.dwightHome}><Dwight /></span>
+            <span className={styles.while}>While You're Here.</span>
+            <div className={styles.carousel}>
+                <Carousel>
+                    <CarouselItem><Charlie /></CarouselItem>
+                    <CarouselItem><Frank /></CarouselItem>
+                    <CarouselItem><Micheal /></CarouselItem>
+                    <CarouselItem><Dwight /></CarouselItem>
+                    <CarouselItem><Patrick /></CarouselItem>
+                </Carousel>
             </div>
+            {/* <span className={styles.shows}>Some motivational Quotes from some of my favorite shows</span> */}
             <Footer />
         </>
     )

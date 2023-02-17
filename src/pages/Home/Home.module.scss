@@ -1,38 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=DM+Serif+Display:ital@0;1&family=Italiana&family=Josefin+Slab:ital,wght@0,100;1,100&family=Lobster+Two&family=Merriweather:wght@300&family=PT+Serif:ital,wght@1,700&family=Playfair+Display&family=Roboto:wght@100&family=Zilla+Slab:wght@400;700&display=swap');
+
+
 .intro {
-    background-image: url('https://e0.pxfuel.com/wallpapers/343/925/desktop-wallpaper-mint-green-pink-background-cute-green-mint-laptop.jpg');
+    //background-image: url('https://i.pinimg.com/736x/40/92/57/409257049228ec57fa95d6a7463d4a2e.jpg');
     background-repeat: none;
     background-size: cover;
-    background-position: top;
+    background-position: center;
     display: flex;
     column-count: 2;
     column-gap: 80px;
     justify-content: space-evenly;
     padding: 2em;
-    height: 500px;
-    background-color: white;
+    height: 700px;
+    background-color: transparent;
     margin-top: .5em;
     margin-bottom: .5em;
     margin-right: 1%;
     margin-left: 1%;
-    border: 2px solid white;
 }
 
 .profile {
-    padding-left: 5%;
+    padding-right: 5%;
     display: flex;
     justify-items: center;
     align-items: center;
 }
 
-.bio{
-    padding-left: 2%;
-    margin-right: 5%;
+.bio {
+    padding-right: 2%;
+    margin-left: 5%;
     justify-content: center;
     align-self: center;
+    color: darkslategrey;
+}
+
+.while {
+    word-wrap: break-word;
+    text-align: end;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 65px;
+    font-family: 'Playfair Display', serif;
+    color: darkslategrey;
+    padding-top: 1em;
+    margin-bottom: 1em;
+}
+
+.shows {    
+    word-wrap: break-word;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    color: darkslategrey;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
 .inspoMemes {
-    background-image: url('https://e0.pxfuel.com/wallpapers/343/925/desktop-wallpaper-mint-green-pink-background-cute-green-mint-laptop.jpg');
+    //background-image: url('https://i.pinimg.com/736x/40/92/57/409257049228ec57fa95d6a7463d4a2e.jpg');
+    background-color: transparent;
     background-repeat: none;
     background-size: cover;
     background-position: bottom;
@@ -41,11 +71,11 @@
     justify-content: space-around;
     padding: 2em;
     height: 500px;
-    margin-top: .5em;
+    margin-top: 4em;
     margin-bottom: .5em;
     margin-right: 1%;
     margin-left: 1%;
-    border: 2px solid white;
+    // border: 2px solid white;
 }
 
 .h1 {
