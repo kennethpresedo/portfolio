@@ -1,5 +1,5 @@
 :root{
-    /* background-color: #d8d8da; */
+    @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=DM+Serif+Display:ital@0;1&family=Italiana&family=Josefin+Slab:ital,wght@0,100;1,100&family=Lobster+Two&family=Merriweather:wght@300&family=PT+Serif:ital,wght@1,700&family=Playfair+Display&family=Roboto:wght@100&family=Zilla+Slab:wght@400;700&display=swap'); 
     background-image: url('https://i.pinimg.com/564x/70/21/3a/70213a0b7e758b8b4925f882a2f1ebc8.jpg');
     background-position: center;
     background-repeat: no-repeat;

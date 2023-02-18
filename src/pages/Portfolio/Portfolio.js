@@ -7,8 +7,8 @@ export default function Portfolio() {
     return (
         <>
             <Nav />
+            <span className={styles.header}>My Portfolio.</span>
             <div className={styles.portfolio}>
-
             </div>
             <Footer />
         </>

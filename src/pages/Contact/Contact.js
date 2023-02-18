@@ -7,9 +7,7 @@ export default function Contact() {
     return (
         <>
             <Nav />
-            <div className={styles.contact}>
-
-            </div>
+            <span className={styles.header}>Contact Me.</span>
             <Footer />
         </>
     )

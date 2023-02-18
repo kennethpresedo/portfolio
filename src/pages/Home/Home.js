@@ -19,6 +19,7 @@ export default function Home() {
                 <span className={styles.profile}><Profile /></span>
             </div>
             <span className={styles.while}>While You're Here.</span>
+            <span className={styles.shows}>Some motivational quotes from some of my favorite shows</span> 
             <div className={styles.carousel}>
                 <Carousel>
                     <CarouselItem><Charlie /></CarouselItem>
@@ -28,7 +29,6 @@ export default function Home() {
                     <CarouselItem><Patrick /></CarouselItem>
                 </Carousel>
             </div>
-            {/* <span className={styles.shows}>Some motivational Quotes from some of my favorite shows</span> */}
             <Footer />
         </>
     )

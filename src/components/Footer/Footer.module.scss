@@ -9,15 +9,15 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background-color: #fff;
     //background-image: url('https://i.pinimg.com/564x/18/1e/db/181edb201df4850ada2e9ec9712e251a.jpg');
-    //background-image: url('https://i.pinimg.com/564x/70/21/3a/70213a0b7e758b8b4925f882a2f1ebc8.jpg');
+    //background-image: url('https://img.freepik.com/premium-photo/color-background-presentations-decorative-design-template-cover-insert-text-with-copy-space_7954-6114.jpg?w=1380');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    background-color: white;
-    font-size: 24px;
+    background-position: bottom;
+    //background-color: white;
+    font-size: 25px;
     font-family: 'Playfair Display', serif;
-    font-style: italic;
 }
 
 
@@ -55,7 +55,7 @@
 }
 .info{
     display: flex;
-    font-size: 30px;
+    font-size: 25px;
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
