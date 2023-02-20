@@ -4,6 +4,7 @@ import Nav from '../../components/Nav/Nav'
 import Footer from '../../components/Footer/Footer'
 import Linkedin from '../../components/Linkedin/Linkedin';
 import AboutMe from '../../components/AboutMe/AboutMe';
+import Github from '../../components/Github/Github';
 
 export default function About() {
     return (
@@ -12,10 +13,14 @@ export default function About() {
             <span className={styles.header}>About Me.</span>
             <div className={styles.aboutMe}>
                 <span className={styles.about}><AboutMe /></span>
-                {/* <span className={styles.linkedin}><Linkedin /></span> */}
+            </div>
+            <div className={styles.socials}>
+                <a className={styles.socialsLink} href="https://www.linkedin.com/in/kenneth-presedo/">
+                    <span className={styles.linkedin}>Linkedin.<Linkedin /></span></a>
+                <a className={styles.socialsLink} href="https://www.github.com/kennethpresedo">
+                    <span className={styles.github}>Githhub.<Github /></span></a>
             </div>
             <Footer />
         </>
     )
 }
-

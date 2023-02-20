@@ -1,7 +1,5 @@
 .aboutMe{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: fit-content;
 }
 
 .header {
@@ -12,12 +10,50 @@
     font-family: 'Playfair Display', serif;
     color: darkslategrey;
     padding-top: 1em;
+    padding-bottom: 2em;
 }
 
-.linkedin{
+.socials{
     display: flex;
-    align-items: baseline;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
     padding-bottom: 2em;
     padding-top: 2em;
+}
+
+.linkedin, .github {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+    padding-top: 25px;
+    font-size: 65px;
+    font-family: 'Playfair Display', serif;
+    color: darkslategrey;
+    box-shadow: 5px 5px 10px 10px darkslategray;
+    border-top: 1px solid darkslategray;
+    margin-bottom: 1em;
+}
+
+.linkedin:hover{
+    transition: all .2s ease;
+-webkit-transition: all .2 ease;
+cursor: pointer;
+color: #759bae;
+box-shadow: none;
+border-top: none;
+}
+
+.github:hover{
+    transition: all .2s ease;
+-webkit-transition: all .2 ease;
+cursor: pointer;
+color: #759bae;
+box-shadow: none;
+border-top: none;
+}
+
+.socialsLink{
+    text-decoration: none;
+    color: darkslategrey;
 }

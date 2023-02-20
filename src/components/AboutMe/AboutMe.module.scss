@@ -1,65 +1,49 @@
-// .ptA{
-//    background-color: #fff;
-// }
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=DM+Serif+Display:ital@0;1&family=Italiana&family=Josefin+Slab:ital,wght@0,100;1,100&family=Lobster+Two&family=Merriweather:wght@300&family=PT+Serif:ital,wght@1,700&family=Playfair+Display&family=Roboto:wght@100&family=Source+Sans+Pro:wght@200&family=Zilla+Slab:wght@400;700&display=swap');
+
+.ptA{
+   font-family: 'Playfair Display', serif;
+   text-align: center;
+   padding-bottom: 3em;
+   margin-left: 15%;
+   margin-right: 15%;
+}
 
 .pro {
-   text-align: center;
-   margin-top: 2em;
-   font-size: 65px;
-   font-family: 'Playfair Display', serif;
-   color: darkblue;
+   text-align: left;
+   font-size: 75px;
+   color:#759bae;
 }
 
 .proText {
-   word-wrap: break-word;
    text-align: justify;
-   display: flex;
-   justify-content: center;
-   align-self: center;
-   align-items: center;
    font-size: 25px;
-   font-family: 'Playfair Display', serif;
-   margin-left: 15%;
-   margin-right: 15%;
    color: darkslategray;
-}
-
-.ptB{
-   column-count: 2;
+   font-family: 'Source Sans Pro', sans-serif;
 }
 
 .depend {
-   text-align: center;
-   font-size: 65px;
-   font-family: 'Playfair Display', serif;
+   text-align: right;
+   font-size: 75px;
+   color:#759bae
 }
 
 .dependText {
-   word-wrap: break-word;
    text-align: justify;
-   display: flex;
-   justify-content: center;
-   align-self: center;
-   align-items: center;
-   font-size: 25px;
-   font-family: 'Playfair Display', serif;
+   font-size: 27px;
    color: darkslategray;
+   font-family: 'Source Sans Pro', sans-serif;
+   font-weight: 400;
 }
 
 .skill {
-   text-align: center;
-   font-size: 65px;
-   font-family: 'Playfair Display', serif;
+   text-align: left;
+   font-size: 75px;
+   color:#759bae;
 }
 
 .skillText {
-   word-wrap: break-word;
    text-align: justify;
-   display: flex;
-   justify-content: center;
-   align-self: center;
-   align-items: center;
-   font-size: 25px;
-   font-family: 'Playfair Display', serif;
+   font-size: 26px;
    color: darkslategray;
+   font-family: 'Source Sans Pro', sans-serif;
 }
