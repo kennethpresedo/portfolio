@@ -1,6 +1,8 @@
 .portfolio{
-    margin-bottom: 4em;
+    margin-top: 7em;
     display: grid;
+    border: 2px solid darkslategray;
+    row-gap: 0;
     text-align: center;
     align-self: center;
     grid-template-rows: repeat(2, 1fr);

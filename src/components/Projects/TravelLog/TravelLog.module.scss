@@ -2,4 +2,26 @@
     max-width: 100%;
     height: auto;
 }
+.app{
+    text-align: center;
+    word-wrap: break-word;
+    font-size: 65px;
+    font-family: 'Playfair Display', serif;
+    color: darkslategray;
+}
 
+.text{
+    text-align: justify;
+    word-wrap: break-word;
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;
+    color: darkslategrey;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+.githubLink{
+    font-size: 40px;
+    text-decoration: none;
+    color: darkslategrey;
+}

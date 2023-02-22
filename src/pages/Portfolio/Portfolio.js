@@ -6,6 +6,7 @@ import TravelLog from '../../components/Projects/TravelLog/TravelLog';
 import Espresso from '../../components/Projects/Espresso/Espresso';
 import DunderMifflin from '../../components/Projects/DunderMifflin/DunderMifflin';
 import Fauxbook from '../../components/Projects/Fauxbook/Fauxbook';
+import PortfolioProject from '../../components/Projects/PortfolioProject/PortfolioProject';
 
 export default function Portfolio() {
     return (
@@ -17,6 +18,7 @@ export default function Portfolio() {
                 <TravelLog />
                 <DunderMifflin />
                 <Fauxbook />
+                <PortfolioProject />
             </div>
             <Footer />
         </>
