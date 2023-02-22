@@ -1,5 +1,10 @@
 .portfolio{
-    display: flex;
+    margin-bottom: 4em;
+    display: grid;
+    text-align: center;
+    align-self: center;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
     justify-content: center;
 }

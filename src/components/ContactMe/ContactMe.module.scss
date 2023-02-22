@@ -1,0 +1,50 @@
+.socials {
+    display: grid;
+    text-align: center;
+    align-self: center;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 65px;
+    font-family: 'Playfair Display', serif;
+    color: darkslategrey;
+    margin-top: 1em;
+    padding-top: .7em;
+    padding-bottom: .5em;
+    margin-bottom: 1.5em;
+    text-decoration: none;
+    row-gap: 30px;
+    column-gap: 30px;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+
+.socialsLinkedin, .socialsEmail, .socialsPhone, .socialsContact{
+    font-family: 'Playfair Display', serif;
+    color: darkslategrey;
+    text-decoration: none;
+    border: 2px solid #000;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    color: #759bae;
+    box-shadow: 2px 2px 2px 2px darkslategray;
+    border-top: 1px solid darkslategray;
+}
+
+.socialsLinkedin:hover, .socialsEmail:hover, .socialsPhone:hover, .socialsContact:hover{
+    transition: all .2s ease;
+-webkit-transition: all .2 ease;
+color: darkslategray;
+cursor: pointer;
+box-shadow: 5px 5px 10px 10px  #759bae;
+border-top: 1px solid  #759bae;
+}
+
+.socialText{
+    font-size: 30px;
+    text-align: center;
+}

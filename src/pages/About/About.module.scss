@@ -10,7 +10,7 @@
     font-family: 'Playfair Display', serif;
     color: darkslategrey;
     padding-top: 1em;
-    padding-bottom: 2em;
+    padding-bottom: 1.5em;
 }
 
 .socials{
@@ -40,8 +40,8 @@
 -webkit-transition: all .2 ease;
 cursor: pointer;
 color: #759bae;
-box-shadow: none;
-border-top: none;
+box-shadow: 5px 5px 10px 10px  #759bae;
+border-top: 1px solid  #759bae;
 }
 
 .github:hover{
@@ -49,8 +49,8 @@ border-top: none;
 -webkit-transition: all .2 ease;
 cursor: pointer;
 color: #759bae;
-box-shadow: none;
-border-top: none;
+box-shadow: 5px 5px 10px 10px  #759bae;
+border-top: 1px solid  #759bae;
 }
 
 .socialsLink{
