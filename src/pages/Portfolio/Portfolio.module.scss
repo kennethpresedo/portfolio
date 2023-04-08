@@ -1,7 +1,7 @@
 .portfolio{
-    margin-top: 7em;
+    margin-top: 5vw;
     display: grid;
-    border: 2px solid darkslategray;
+    border: 0.1vw solid darkslategray;
     row-gap: 0;
     text-align: center;
     align-self: center;
@@ -15,8 +15,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 65px;
+    font-size: 3.25vw;
     font-family: 'Playfair Display', serif;
     color: darkslategrey;
-    padding-top: 1em;
+    padding-top: 3vw;
 }

@@ -2,38 +2,28 @@
 
 .Nav {
     padding: 4%;
-    font-size: 29px;
+    font-size: 1.45vw;
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    // color: rgba(24,31,52,255);
-    // background-image: url('https://i.pinimg.com/564x/18/1e/db/181edb201df4850ada2e9ec9712e251a.jpg');
-    //background-image: url('https://i.pinimg.com/564x/2d/af/d1/2dafd1dedf119116e51953a81667526d.jpg');
-    //background-image: url('https://i.pinimg.com/736x/40/92/57/409257049228ec57fa95d6a7463d4a2e.jpg');
+    align-items: center; 
     background-color: transparent;
     background-size: cover;
     background-position: top;
     font-family: 'Playfair Display', serif;
-    border-bottom: 2px solid darkslategrey;
+    border-bottom: 0.1vw solid darkslategrey;
 }
 
 .navList {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    gap: 25px;
+    gap: 1.25vw;
 }
 
 .link {
     color: darkslategray;
     text-decoration: none;
 }
-
-// .link:hover{
-//     transition: all .9s ease;
-// -webkit-transition: all .9s ease;
-// font-size: 1.5em;
-// }
 
 .logo {
     display: flex;
@@ -44,9 +34,9 @@
 }
 
 .KP {
-    font-size: 36px;
+    font-size: 1.79vw;
 }
 
 .FSSE {
-    font-size: 26px;
+    font-size: 1.3vw;
 }

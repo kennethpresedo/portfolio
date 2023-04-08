@@ -15,7 +15,7 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    height: 550px;
+    height: 27.5vw;
     background-color: transparent;
     color: #fff;
     padding-bottom: 1em;
@@ -27,13 +27,13 @@
   }
   
   .indicators > button {
-    font-size: 25px;
-    margin: 5px;
+    font-size: 1.25vw;
+    margin: .25vw;
     background-color: transparent;
     border: none;
     box-shadow: none;
-    height: 40px;
-    width: 40px;
+    height: 2vw;
+    width: 2vw;
     border-radius: 50%;
     color: darkslategrey;
   }

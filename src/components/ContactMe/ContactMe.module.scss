@@ -4,7 +4,7 @@
     align-self: center;
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(2, 1fr);
-    font-size: 65px;
+    font-size: 6.25vw;
     font-family: 'Playfair Display', serif;
     color: darkslategrey;
     margin-top: 1em;
@@ -12,8 +12,8 @@
     padding-bottom: .5em;
     margin-bottom: 1.5em;
     text-decoration: none;
-    row-gap: 30px;
-    column-gap: 30px;
+    row-gap: 1.5vw;
+    column-gap: 1.5vw;
     margin-left: 1em;
     margin-right: 1em;
 }
@@ -23,7 +23,7 @@
     font-family: 'Playfair Display', serif;
     color: darkslategrey;
     text-decoration: none;
-    border: 2px solid #000;
+    border: 0.1vw solid #000;
     padding-top: 1em;
     padding-bottom: 1em;
     display: flex;
@@ -31,7 +31,7 @@
     justify-content: center;
     align-items: center;    
     color: #759bae;
-    box-shadow: 2px 2px 2px 2px darkslategray;
+    box-shadow: 0.1vw 0.1vw 0.1vw 0.1vw darkslategray;
     border-top: 1px solid darkslategray;
 }
 
@@ -40,11 +40,11 @@
 -webkit-transition: all .2 ease;
 color: darkslategray;
 cursor: pointer;
-box-shadow: 5px 5px 10px 10px  #759bae;
-border-top: 1px solid  #759bae;
+box-shadow: 0.25vw 0.25vw 0.5vw 0.5vw  #759bae;
+border-top: 0.05vw solid  #759bae;
 }
 
 .socialText{
-    font-size: 30px;
+    font-size: 1.5vw;
     text-align: center;
 }

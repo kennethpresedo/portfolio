@@ -4,10 +4,10 @@
     background-position: center;
     display: flex;
     column-count: 2;
-    column-gap: 80px;
+    column-gap: 4vw;
     justify-content: space-evenly;
     padding: 2em;
-    height: 500px;
+    height: 25vw;
     background-color: transparent;
     margin-bottom: .5em;
     margin-right: 1%;
@@ -35,7 +35,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 65px;
+    font-size: 3.25vw;
     font-family: 'Playfair Display', serif;
     color: darkslategrey;
     padding-top: 1em;
@@ -47,7 +47,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 21px;
+    font-size: 1.05vw;
     font-family: 'Playfair Display', serif;
     color: darkslategrey;
     margin-right: 5%;
@@ -55,8 +55,7 @@
     margin-bottom: 1em;
 }
 
-.inspoMemes {
-    //background-image: url('https://i.pinimg.com/736x/40/92/57/409257049228ec57fa95d6a7463d4a2e.jpg');
+.inspoMemes { 
     background-color: transparent;
     background-repeat: none;
     background-size: cover;
@@ -65,12 +64,11 @@
     align-items: center;
     justify-content: space-around;
     padding: 2em;
-    height: 500px;
+    height: 25vw;
     margin-top: 4em;
     margin-bottom: .5em;
     margin-right: 1%;
     margin-left: 1%;
-    // border: 2px solid white;
 }
 
 .h1 {
@@ -83,7 +81,7 @@
     display: flex;
     height: max-content;
     height: min-content;
-    border: 1px solid black;
+    border: 0.05vw solid black;
 }
 
 .frankHome {

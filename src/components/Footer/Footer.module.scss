@@ -5,18 +5,15 @@
     position: relative;
     bottom: 0;
     width: 100%;
-    height: 20.5rem;
+    height: 20vw;
     display: flex;
     align-items: center;
     justify-content: space-around;
     background-color: #fff;
-    //background-image: url('https://i.pinimg.com/564x/18/1e/db/181edb201df4850ada2e9ec9712e251a.jpg');
-    //background-image: url('https://img.freepik.com/premium-photo/color-background-presentations-decorative-design-template-cover-insert-text-with-copy-space_7954-6114.jpg?w=1380');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
-    //background-color: white;
-    font-size: 25px;
+    font-size: 1.25vw;
     font-family: 'Playfair Display', serif;
 }
 
@@ -31,7 +28,7 @@
     display: flex;
     flex-direction: column;
     gap: 1em;
-    border-left: solid 2px darkslategrey;
+    border-left: solid 0.1vw darkslategrey;
     padding-left: 1em;
     padding-right: 5em;
 }
@@ -45,7 +42,7 @@
     display: flex;
     flex-direction: column;
     gap: 1.5em;
-    border-left: solid 2px darkslategrey;
+    border-left: solid 0.1vw darkslategrey;
     padding-left: 1em;
 }
 
@@ -56,7 +53,7 @@
 
 .info{
     display: flex;
-    font-size: 25px;
+    font-size: 1.25vw;
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
