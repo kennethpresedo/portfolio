@@ -7,6 +7,7 @@ import Espresso from '../../components/Projects/Espresso/Espresso';
 import DunderMifflin from '../../components/Projects/DunderMifflin/DunderMifflin';
 import Fauxbook from '../../components/Projects/Fauxbook/Fauxbook';
 import PortfolioProject from '../../components/Projects/PortfolioProject/PortfolioProject';
+import DulucLearning from '../../components/Projects/DulucLearning/DulucLearning';
 
 export default function Portfolio() {
     return (
@@ -14,6 +15,7 @@ export default function Portfolio() {
             <Nav />
             <span className={styles.header}>My Portfolio.</span>
             <div className={styles.portfolio}>
+                <DulucLearning />
                 <Espresso />
                 <TravelLog />
                 <DunderMifflin />
