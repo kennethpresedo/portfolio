@@ -1,0 +1,32 @@
+.codex{
+    max-width: 100%;
+    height: auto;
+}
+.codex:hover{
+    opacity: .8;
+}
+
+.app{
+    text-align: center;
+    word-wrap: break-word;
+    font-size: 3.25vw;
+    font-family: 'Playfair Display', serif;
+    color: darkslategray;
+    height: 21.2vw;
+}
+
+.text{
+    text-align: justify;
+    word-wrap: break-word;
+    font-size: 1.25vw;
+    font-family: 'Playfair Display', serif;
+    color: darkslategrey;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+.githubLink{
+    font-size: 2vw;
+    text-decoration: none;
+    color: darkslategrey;
+}
