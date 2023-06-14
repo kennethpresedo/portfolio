@@ -1,14 +1,5 @@
 .portfolio{
     margin-top: 5vw;
-    display: grid;
-    border: 0.1vw solid darkslategray;
-    row-gap: 0;
-    text-align: center;
-    align-self: center;
-    grid-template-rows: repeat(2, 1fr);
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    justify-content: center;
 }
 
 .header {
