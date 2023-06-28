@@ -20,7 +20,7 @@ export default function GetSwole() {
                 
                 <span className={styles.partA} data-aos="fade-right">Get Swole Fitness App<br />
                     <span className={styles.text}>
-                        Front-end React application with the ability to browse, search, and see related exercises from one place. Using <em>MaterialUI</em> for deisign and dual <em>RapidAPI</em> API's for exercise database, and see related exercise videos. Clicking any exercise with show you detail, similar target muscle exercises and similar equiptment exercises.
+                        Front-end React application with the ability to browse, search, and see related exercises from one place. Using <em>MaterialUI</em> for deisign and dual <em>RapidAPI</em> API's for exercise database, and see related exercise videos. Clicking any exercise with show you detail, similar target muscle exercises and similar equipment exercises.
                     </span>
                     <a data-aos="flip-up" className={styles.githubLink} href="https://github.com/kennethpresedo/fitnessApp" target="_blank" rel="noopener noreferrer">View Github</a>
                 </span>
