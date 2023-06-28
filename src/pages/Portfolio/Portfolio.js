@@ -4,13 +4,14 @@ import 'aos/dist/aos.css';
 import styles from './Portfolio.module.scss'
 import Nav from '../../components/Nav/Nav'
 import Footer from '../../components/Footer/Footer'
-// import TravelLog from '../../components/Projects/TravelLog/TravelLog';
-// import Espresso from '../../components/Projects/Espresso/Espresso';
 import DunderMifflin from '../../components/Projects/DunderMifflin/DunderMifflin';
 import DulucLearning from '../../components/Projects/DulucLearning/DulucLearning';
 import Sumz from '../../components/Projects/Sumz/Sumz';
 import Codex from '../../components/Projects/Codex/Codex';
 import Sushi from '../../components/Projects/Sushi/Sushi';
+import getSwole from '../../components/Projects/GetSwole/GetSwole';
+import GetSwole from "../../components/Projects/GetSwole/GetSwole";
+
 
 export default function Portfolio() {
     useEffect(() => {
@@ -21,14 +22,11 @@ export default function Portfolio() {
             <Nav />
             <span className={styles.header} data-aos="flip-up">My Portfolio</span>
             <div className={styles.portfolio}>
+                <GetSwole />
                 <Sushi />
                 <Codex />
                 <Sumz />
                 <DulucLearning />
-                      {/* 
-                <Espresso />
-                <TravelLog />
-                 */}
                 <DunderMifflin />
             </div>
             <Footer />
